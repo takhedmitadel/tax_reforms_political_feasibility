@@ -105,7 +105,7 @@ def make_latex_table(df_stats):
     lines.append(r"\footnotesize")
     lines.append(r"\textit{Notes:} Sample of adults (age $\geq$ 18) from the ERFS-FPR surveys.")
     lines.append(r"All income statistics are weighted by survey weights \textit{wprm} and expressed in euros.")
-    lines.append(r"Total income excludes capital income (not available in the ERFS-FPR).")
+    lines.append(r"Total income excludes capital income.")
     lines.append(r"\end{minipage}")
     lines.append(r"\end{table}")
 
